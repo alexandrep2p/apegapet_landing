@@ -1,53 +1,60 @@
-<html>
+<html lang="pt-br">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example that shows off a responsive product landing page.">
+    <title>Apegapet - Descontos para seu pet!</title>
     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
         crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
 </head>
 
 <body>
+
+    <div class="intro-container"></div>
     <div class="intro">
-        <h1 class="texto-intro">
-            Encontre os melhores produtos com os melhores preços para seu pet!
+        <h1 class="head-intro">
+            ApegaPet
         </h1>
+        <p class="subhead-intro">
+            Encontre os produtos e serviços com os melhores preços para seu pet!
+        </p>
     </div>
 
-    <div class="pure-g servicos">
-        <div class="pure-u-1-4 servico-1">
-            <span>Alimentação</span>
+    <div class="pure-g servicos-container">
+        <div class="pure-u-1-4 servico-1 grow">
+            <span class="span-servico">Alimentação</span>
         </div>
-        <div class="pure-u-1-4 servico-2">
+        <div class="pure-u-1-4 servico-2 grow">
             <span>Acessórios</span>
         </div>
-        <div class="pure-u-1-4 servico-3">
+        <div class="pure-u-1-4 servico-3 grow">
             <span>Medicamentos</span>
         </div>
-        <div class="pure-u-1-4 servico-4">
+        <div class="pure-u-1-4 servico-4 grow">
             <span>E muito mais!</span>
         </div>
     </div>
 
     <div class="pure-g pitch">
         <div class="pure-u-1-2 pitch-1">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5aMZuwSS2VU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            <iframe class="video-frame" src="https://www.youtube.com/embed/8de2W3rtZsA?controls=0" frameborder="0"
                 allowfullscreen></iframe>
         </div>
         <div class="pure-u-1-2 pitch-2">
-            <span class="span-pitch">Está com alguma dúvida? Assita nosso vídeo explicativo e entenda como funciona o
-                Apegapet !</span>
+            <span class="span-pitch">Encontrar serviços e produtos para seu pet fica muito mais fácil com o Apegapet.
+                Baixe agora o aplicativo e comece a usar, é gratis!</span>
         </div>
     </div>
 
     <div class="pure-g download">
         <div class="pure-u-1-2 download-1">
-            <span>Baixe nosso aplicativo e comece já !</span><br>
             <a href='https://play.google.com/store/apps/details?id=br.com.ghpdevs.apegapet&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                <img class="badge-playstore" alt='Disponível no Google Play' src='https://play.google.com/intl/pt-BR/badges/images/generic/pt-br_badge_web_generic.png' /></a>
+                <img class="badge-download" alt='Disponível no Google Play' src='https://play.google.com/intl/pt-BR/badges/images/generic/pt-br_badge_web_generic.png' /></a>
         </div>
         <div class="pure-u-1-2 download-2">
-            <!-- <img src="images/phone.jpg"> -->
         </div>
     </div>
 
