@@ -20,6 +20,12 @@
 
 body{
     font-family: 'Decker';
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
 
 span{
@@ -62,7 +68,6 @@ span{
 
 .servicos-container{
     height: 30vh;
-
 }
 
 .grow{
@@ -76,25 +81,43 @@ span{
     transform: scale(1.1);
 }
 
+.frame-servico{
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
+    border: 3px solid #f1f1f1;
+    text-align: center;
+    height: 30vh;
+}
+
 .span-servico{
     font-size: 2em;
     font-family: 'Caviar Dreams' ;
 }
 
 .servico-1{
-    background-image: url();
+    background-image: url("../images/servico-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
 }
 
 .servico-2{
-    background-image: url();
+    background-image: url("../images/servico-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .servico-3{
-    background-image: url();
+    background-image: url("../images/servico-3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .servico-4{
-    background-image: url();
+    background-image: url("../images/servico-4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pitch{
@@ -143,7 +166,7 @@ span{
     background-image: url("../images/cat.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: left;
+    background-position: center;
 }
 
 .span-download{
@@ -171,6 +194,7 @@ span{
 .footer-1{
     color: white;
     margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: 10vh;
     text-align: center;
     width: 40vw;
@@ -179,8 +203,13 @@ span{
 .footer-2{
     color: white;
     margin-top: 2%;
+    margin-bottom: 2%;
     margin-right: 10vh;
     text-align: center;
     width: 40vw;
+}
+
+.span-margin{
+    margin-top: 2%;
 }
 
