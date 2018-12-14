@@ -1,0 +1,111 @@
+.intro{
+    height: 70vh;
+    background-image: url("../images/1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1.3em;
+    border-bottom-right-radius: 300px;
+    border-bottom-left-radius: 300px;
+}
+
+.texto-intro{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    position: absolute;
+    width: 100%;
+    text-shadow: 1px 1px black;
+}
+
+.servicos{
+    height: 250px;
+}
+
+.servico-1{
+    background-color: blue;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 250px;
+}
+
+.servico-2{
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 250px;
+}
+
+.servico-3{
+    background-color: chartreuse;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 250px;
+}
+
+.servico-4{
+    background-color: darkgoldenrod;
+    text-align: center;
+    font-size: 1.2em;
+    line-height: 250px;
+}
+
+.pitch{
+    height: 315px;
+}
+
+.pitch-1{
+    text-align: center;
+}
+
+.pitch-2{
+    height: 315px;
+    line-height: 315px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.span-pitch{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;   
+}
+
+.download{
+    height: 500px;
+}
+
+.download-1{
+    line-height: 250px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.badge-playstore{
+    width: 30vw;
+    height: auto;
+}
+
+.download-2{
+    background-image: url("../images/phone.jpg");
+    background-repeat: no-repeat;
+}
+
+.footer{
+    background-color: black;
+}
+
+.footer-1{
+    color: white;
+    margin-left: 10vh;
+    text-align: center;
+    width: 40vw;
+}
+
+.footer-2{
+    color: white;
+    margin-right: 10vh;
+    text-align: center;
+    width: 40vw;
+}
+
