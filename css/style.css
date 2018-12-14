@@ -9,6 +9,15 @@
     font-style:normal;
 }
 
+@font-face {
+    font-family: "Caviar Dreams";
+    src:
+    url("../fonts/Caviar_Dreams_Bold/CaviarDreams_Bold.eot?") format("eot"),
+    url("../fonts/Caviar_Dreams_Bold/CaviarDreams_Bold.woff") format("woff"),
+    url("../fonts/Caviar_Dreams_Bold/CaviarDreams_Bold.ttf") format("truetype"),
+    url("../fonts/Caviar_Dreams_Bold/CaviarDreams_Bold.svg#") format("svg");
+}
+
 body{
     font-family: 'Decker';
 }
@@ -68,23 +77,24 @@ span{
 }
 
 .span-servico{
-
+    font-size: 2em;
+    font-family: 'Caviar Dreams' ;
 }
 
 .servico-1{
-    background-color: blue;
+    background-image: url();
 }
 
 .servico-2{
-    background-color: blueviolet;
+    background-image: url();
 }
 
 .servico-3{
-    background-color: chartreuse;
+    background-image: url();
 }
 
 .servico-4{
-    background-color: darkgoldenrod;
+    background-image: url();
 }
 
 .pitch{
@@ -160,6 +170,7 @@ span{
 
 .footer-1{
     color: white;
+    margin-top: 2%;
     margin-left: 10vh;
     text-align: center;
     width: 40vw;
@@ -167,6 +178,7 @@ span{
 
 .footer-2{
     color: white;
+    margin-top: 2%;
     margin-right: 10vh;
     text-align: center;
     width: 40vw;
