@@ -18,6 +18,128 @@
     url("../fonts/Caviar_Dreams_Bold/CaviarDreams_Bold.svg#") format("svg");
 }
 
+@media only screen and (max-width: 720px) {
+
+    body{
+        overflow-x: hidden !important;
+    }
+       
+    .intro-container{
+        height: 60vh !important;
+        width: 100vw !important;
+    }
+    
+    .intro{
+        margin: 0% !important;
+        width: 95vw !important;
+        padding: 0% !important
+    }
+    
+    .head-intro{
+        font-size: 2em !important;
+    }
+    
+    .subhead-intro{
+        font-size: 1.2em !important;
+    }
+    
+    .servicos-container{
+        height: 40vh !important;
+    }
+    
+    .grow{
+        font-size: 1.0em !important;
+        line-height: 20vh !important; 
+        height: 20vh !important;
+    }
+       
+    .frame-servico{
+        height: 20vh !important;
+    }
+    
+    .span-servico{
+        font-size: 1.5em !important;
+        width: 50vw !important;
+    }
+    
+    .servico-1{
+        width: 50vw !important;
+    }
+    
+    .servico-2{
+        width: 50vw !important;
+    }
+    
+    .servico-3{
+        width: 50vw !important;
+    }
+    
+    .servico-4{
+        width: 50vw !important;
+    }
+    
+    .pitch{
+        height: 60vh !important;
+    }
+    
+    .pitch-1{
+        width: 100vw !important;
+        height: 30vh !important;
+        margin-left: 0% !important;
+        margin-top: 5vh !important;
+    }
+    
+    .video-frame{
+        width: 95vw !important;
+        height: 30vh !important;
+    }
+    
+    .pitch-2{
+        width: 100vw !important;
+        height: 25vh !important;
+        text-align: center !important;
+    }
+    
+    .span-pitch{
+        margin-top: 10% !important;
+        text-align: center !important;
+    }
+    
+    .download{
+        width: 100vw !important;
+    }
+    
+    .download-1{
+        margin-left: 0% !important;
+        width: 100vw !important;
+        background-position: bottom !important;
+    }
+
+    .badge-download{
+        margin-top: 90px !important;
+    }
+            
+    .download-2{
+        display: none;
+    }
+    
+    .footer{
+        background-color: black;
+    }
+    
+    .footer-1{
+        width: 80vw !important;
+        margin-left: 10vw !important;
+    }
+    
+    .footer-2{
+        width: 80vw !important;
+        margin-left: 10vw !important;
+        margin-right: 0vw !important;
+    }
+
+} 
+
 body{
     font-family: 'Decker';
     overflow-x: hidden;
@@ -76,10 +198,10 @@ span{
     line-height: 250px;
 }
 
-.grow:hover{
+/* .grow:hover{
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
-}
+} */
 
 .frame-servico{
     background-color: rgb(0,0,0);
