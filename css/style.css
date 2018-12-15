@@ -18,128 +18,7 @@
     url("../fonts/Caviar_Dreams_Bold/CaviarDreams_Bold.svg#") format("svg");
 }
 
-@media only screen and (max-width: 720px) {
-
-    body{
-        overflow-x: hidden !important;
-    }
-       
-    .intro-container{
-        height: 60vh !important;
-        width: 100vw !important;
-    }
-    
-    .intro{
-        margin: 0% !important;
-        width: 95vw !important;
-        padding: 0% !important
-    }
-    
-    .head-intro{
-        font-size: 2em !important;
-    }
-    
-    .subhead-intro{
-        font-size: 1.2em !important;
-    }
-    
-    .servicos-container{
-        height: 40vh !important;
-    }
-    
-    .grow{
-        font-size: 1.0em !important;
-        line-height: 20vh !important; 
-        height: 20vh !important;
-    }
-       
-    .frame-servico{
-        height: 20vh !important;
-    }
-    
-    .span-servico{
-        font-size: 1.5em !important;
-        width: 50vw !important;
-    }
-    
-    .servico-1{
-        width: 50vw !important;
-    }
-    
-    .servico-2{
-        width: 50vw !important;
-    }
-    
-    .servico-3{
-        width: 50vw !important;
-    }
-    
-    .servico-4{
-        width: 50vw !important;
-    }
-    
-    .pitch{
-        height: 60vh !important;
-    }
-    
-    .pitch-1{
-        width: 100vw !important;
-        height: 30vh !important;
-        margin-left: 0% !important;
-        margin-top: 5vh !important;
-    }
-    
-    .video-frame{
-        width: 95vw !important;
-        height: 30vh !important;
-    }
-    
-    .pitch-2{
-        width: 100vw !important;
-        height: 25vh !important;
-        text-align: center !important;
-    }
-    
-    .span-pitch{
-        margin-top: 10% !important;
-        text-align: center !important;
-    }
-    
-    .download{
-        width: 100vw !important;
-    }
-    
-    .download-1{
-        margin-left: 0% !important;
-        width: 100vw !important;
-        background-position: bottom !important;
-    }
-
-    .badge-download{
-        margin-top: 90px !important;
-    }
-            
-    .download-2{
-        display: none;
-    }
-    
-    .footer{
-        background-color: black;
-    }
-    
-    .footer-1{
-        width: 80vw !important;
-        margin-left: 10vw !important;
-    }
-    
-    .footer-2{
-        width: 80vw !important;
-        margin-left: 10vw !important;
-        margin-right: 0vw !important;
-    }
-
-} 
-
+/*Mobile First BITCH*/
 body{
     font-family: 'Decker';
     overflow-x: hidden;
@@ -153,67 +32,68 @@ a{
 span{
     font-family: 'Decker';
 }
-
+   
 .intro-container{
-    height: 70vh;
-    background-image: url("../images/intro.jpg");
+    height: 60vh;
+    width: 100vw;
+    background-image: url("../images/intro-mobile.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(2px);
-    -webkit-filter: blur(2px);
+    background-position-x: center ;
+    background-position-y: bottom ;
+    /* filter: blur(2px);
+    -webkit-filter: blur(2px); */
 }
 
 .intro{
     background-color: rgb(0,0,0);
-    background-color: rgba(0,0,0, 0.4);
+    background-color: rgba(0,0,0, 0.7);
     color: white;
     border: 3px solid #f1f1f1;
     position: absolute;
+    margin: 0% ;
+    width: 95vw ;
+    padding: 0% ;
     top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
-    padding: 15px;
     text-align: center;
 }
 
 .head-intro{
     color: white;
-    font-size: 3em;
+    font-size: 2em ;
 }
 
 .subhead-intro{
     color: white;
-    font-size: 1.5em;
+    font-size: 1.2em ;
 }
 
 .servicos-container{
-    height: 30vh;
+    height: 40vh ;
 }
 
 .grow{
     text-align: center;
-    font-size: 1.2em;
-    line-height: 250px;
+    font-size: 1.0em ;
+    line-height: 20vh ; 
+    height: 20vh ;
 }
-
-/* .grow:hover{
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-} */
-
+   
 .frame-servico{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0, 0.5);
     color: white;
     border: 3px solid #f1f1f1;
     text-align: center;
-    height: 30vh;
+    height: 20vh ;
 }
 
 .span-servico{
-    font-size: 2em;
+    font-size: 1.5em ;
+    width: 50vw ;
     font-family: 'Caviar Dreams' ;
 }
 
@@ -221,92 +101,90 @@ span{
     background-image: url("../images/servico-1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30vh;
+    width: 50vw ;
 }
 
 .servico-2{
     background-image: url("../images/servico-2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 50vw ;
 }
 
 .servico-3{
     background-image: url("../images/servico-3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 50vw ;
 }
 
 .servico-4{
     background-image: url("../images/servico-4.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    width: 50vw ;
 }
 
 .pitch{
-    height: 300px;
+    height: 60vh ;
 }
 
 .pitch-1{
     text-align: center;
-    margin-left: 10vw;
-    width: 40vw;
+    width: 100vw ;
+    height: 30vh ;
+    margin-left: 0% ;
+    margin-top: 5vh ;
 }
 
 .video-frame{
-    width: 470px;
-    height: 300px;
-    margin-top: 2%;
+    width: 95vw ;
+    height: 30vh ;
 }
 
 .pitch-2{
-    width: 40vw;
-    line-height: 315px;
-    font-size: 1.5em;
+    width: 100vw ;
+    height: 25vh ;
+    text-align: center ;
 }
 
 .span-pitch{
+    font-size: 1.25em;
+    width: 95vw;;
     display: inline-block;
-    margin-top: 20%;
     vertical-align: middle;
     line-height: normal;   
-    text-align: left;
     text-shadow: 1px 1px white;
+    margin-top: 10% ;
+    text-align: center ;
 }
 
 .download{
-    height: 500px;
-    width: 100vw;
+    width: 100vw ;
+    height: 60vh;
     text-align: center;
 }
 
 .download-1{
-    margin-left: 10vw;
-    width: 40vw;
     line-height: 250px;
     text-align: center;
     font-size: 1.5em;
     background-image: url("../images/cat.jpg");
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: center;
-}
-
-.span-download{
-    font-size: 1.5em;
+    margin-left: 0% ;
+    width: 100vw ;
+    background-position: bottom ;
 }
 
 .badge-download{
     height: 100px;
     width: auto;
-    margin-top: 40px;
+    margin-top: 20px ;
 }
-
+        
 .download-2{
-    width: 40vw;
-    background-image: url("../images/phone.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    display: none;
 }
 
 .footer{
@@ -317,21 +195,224 @@ span{
     color: white;
     margin-top: 2%;
     margin-bottom: 2%;
-    margin-left: 10vh;
     text-align: center;
-    width: 40vw;
+    width: 80vw ;
+    margin-left: 10vw ;
 }
 
 .footer-2{
     color: white;
-    margin-top: 2%;
     margin-bottom: 2%;
-    margin-right: 10vh;
     text-align: center;
-    width: 40vw;
+    width: 80vw ;
+    margin-left: 10vw ;
 }
 
-.span-margin{
-    margin-top: 2%;
-}
+
+/*Desktop*/
+@media only screen and (min-width: 768px) {
+
+    body{
+        font-family: 'Decker';
+        overflow-x: hidden;
+    }
+    
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    span{
+        font-family: 'Decker';
+    }
+    
+    .intro-container{
+        height: 70vh;
+        background-image: url("../images/intro.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+    }
+    
+    .intro{
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.4);
+        color: white;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    
+    .head-intro{
+        color: white;
+        font-size: 3em;
+    }
+    
+    .subhead-intro{
+        color: white;
+        font-size: 1.5em;
+    }
+    
+    .servicos-container{
+        height: 30vh;
+        width: 100vw;
+    }
+    
+    .grow{
+        text-align: center;
+        font-size: 1.2em;
+        line-height: 250px;
+    }
+        
+    .frame-servico{
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0, 0.5);
+        color: white;
+        border: 3px solid #f1f1f1;
+        text-align: center;
+        height: 30vh;
+    }
+    
+    .span-servico{
+        font-size: 2em;
+        font-family: 'Caviar Dreams' ;
+    }
+    
+    .servico-1{
+        background-image: url("../images/servico-1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+        width: 25vw;
+    }
+    
+    .servico-2{
+        background-image: url("../images/servico-2.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+        width: 25vw;
+    }
+    
+    .servico-3{
+        background-image: url("../images/servico-3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+        width: 25vw;
+    }
+    
+    .servico-4{
+        background-image: url("../images/servico-4.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 30vh;
+        width: 25vw;
+    }
+    
+    .pitch{
+        height: 300px;
+    }
+    
+    .pitch-1{
+        text-align: center;
+        margin-left: 10vw;
+        width: 40vw;
+    }
+    
+    .video-frame{
+        width: 470px;
+        height: 300px;
+        margin-top: 2%;
+    }
+    
+    .pitch-2{
+        width: 40vw;
+        line-height: 315px;
+        font-size: 1.5em;
+    }
+    
+    .span-pitch{
+        width: 40vw;
+        display: inline-block;
+        margin-top: 20%;
+        vertical-align: middle;
+        line-height: normal;   
+        text-align: left;
+        text-shadow: 1px 1px white;
+    }
+    
+    .download{
+        height: 500px;
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .download-1{
+        margin-left: 10vw;
+        width: 40vw;
+        line-height: 250px;
+        text-align: center;
+        font-size: 1.5em;
+        background-image: url("../images/cat.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+    
+    .span-download{
+        font-size: 1.5em;
+    }
+    
+    .badge-download{
+        height: 100px;
+        width: auto;
+        margin-top: 70px;
+    }
+    
+    .download-2{
+        display: flex;
+        width: 40vw;
+        background-image: url("../images/phone.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+    }
+    
+    .footer{
+        width: 100vw;
+        text-align: center;
+    }
+    
+    .footer-1{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        width: 40vw;
+        margin-left: 10vw;
+    }
+    
+    .footer-2{
+        color: white;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 0vw;
+        margin-right: 10vW;
+        width: 40vw;
+    }
+    
+    .span-margin{
+        margin-top: 2%;
+    }
+
+} 
+
+
 
